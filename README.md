@@ -20,7 +20,9 @@ it install to /var/snotify directory.
 # out queue
 it automatically calls the specified program, the program write to rspawn how it process queue:
 
+```
 K: successful delivery and delete queue
 D: failure delivery and delete queue
 Z: failure delivery and next retry 
+```
 
