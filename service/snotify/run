@@ -1,0 +1,4 @@
+#!/bin/sh
+ulimit -c unlimited
+ulimit -SHn 655350
+exec env - PATH="/var/snotify/bin:$PATH" sn-start

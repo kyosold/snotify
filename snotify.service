@@ -1,0 +1,12 @@
+# /usr/lib/systemd/system/snotify.service
+[Unit]
+Description=Snotify server daemon
+Before=snotify.service
+After=network.target
+
+[Service]
+Type=simple 
+ExecStart=/var/snotify/bin/svscanboot
+
+[Install]
+WantedBy=multi-user.target

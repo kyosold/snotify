@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# description: the snotify
+
+PATH=/var/snotify/bin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin
+export PATH
+
+SNOTIFYPATH="/var/snotify"
+SERVICEDIR=$SNOTIFYPATH"/service"
+
+case "$1" in
+    queue)
+        cd $SNOTIFYPATH
+        # messdirs=`echo queue/* | wc -w`
+        messfiles=`find queue/* -print | wc -w`
+        tododir=`echo todo | wc -w`
+        todofiles=`find todo -print | wc -w`
+        echo message in queue: `expr $messfiles`
+        echo message in queue but not yet preprocessed: `expr $todofiles - $tododir`
+        ;;
+
+    delq)
+        echo "Delete All Queue ..."
+        rm -f todo/*
+        rm -f queue/*
+        rm -f mess/*
+        ;;
+    help)
+        cat <<HELP
+deleteq -- Delete All Queue
+HELP
+        ;;
+    *)
+        echo "Usage: $0 {deleteq|help}"
+        exit 1
+        ;;
+esac
+
+exit 0

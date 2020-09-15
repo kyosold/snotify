@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/mailrept/!svn/ver/137598/src/smail_ent/src/spam_filter/confparser
+END
+freebsd.mk
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/freebsd.mk
+END
+solaris.mk
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/solaris.mk
+END
+iniparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/iniparser.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/LICENSE
+END
+confparser.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/confparser.c
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/AUTHORS
+END
+dictionary.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/dictionary.c
+END
+confparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mailrept/!svn/ver/137598/src/smail_ent/src/spam_filter/confparser/confparser.h
+END
+dictionary.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/dictionary.h
+END
+testmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/testmem.c
+END
+testfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/testfile.c
+END
+linux.mk
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/linux.mk
+END
+macos.mk
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/macos.mk
+END
+testfile.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/testfile.cfg
+END
+iniparser.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/mailrept/!svn/ver/102301/src/smail_ent/src/spam_filter/confparser/iniparser.c
+END
